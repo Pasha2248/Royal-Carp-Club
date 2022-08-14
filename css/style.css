@@ -1,43 +1,58 @@
+* 
+{
+  margin: 1px;
+  padding: 0;
+}
 body{
-   margin: auto;
+   
     
     
 }
+/*соцсети*/
 .socialmenu{
     
     text-align: center;
     
 }
+/*заглав*/
 .img1{
- margin: 20px;
+ margin:0px 80px 20px 80px;
+    margin-bottom: 40px;
 }
 
-
+/*фотка текст*/
 .conteiner{
    display: flex; 
-    
+     margin: 20px 80px;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
 }
 .shaped {
     width: 50%;
-    margin: 20px;
+    margin:10px 0 10px 10px ;
 }
 .content{
-    background-color: bisque;
+    background-color: #E6D8D7;
     width: 50%;
-    margin: 20px;
+    margin: 10px 10px 10px 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     }
 
 
 .photo {
    display: flex;
-    margin: 20px ;
+    margin:  ;
+    margin-bottom: 40px;
 }
 .photo11 {
    display: flex;
 }
 .photo12 {
    display: flex;
+    
 }
 .photo111 {
    display: flex;
@@ -61,23 +76,45 @@ body{
 }
 
 
+
+.map{
+    
+}
 .map_text{
     text-align: center;
 }
 .link_mail{
     color: black;
 }
+.map_map{
+    margin: 0px 80px 30px 80px;
+}
 
-
+.price{
+    
+}
+.price_text{
+    background-color: #F7F7F7;
+    padding: 20px;
+    font-size: 30px;
+}
 .head3{
     display: flex;
     justify-content: space-evenly;
+    
+}
+.text1{width: 33%
+    
+}
+.text2{
+    width: 33%
 }
 .text3{
-    
+    width: 33%
 }
 .price3{
    display:flex;justify-content:center;
+   
 }
 .price33{
     width: 80%;
