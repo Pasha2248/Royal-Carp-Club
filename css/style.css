@@ -1,52 +1,22 @@
-* 
-{
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    border: 0;
 }
 body{
-   font-family: 'Raleway', sans-serif;
-    background-color: aliceblue;
-    
+    max-width: 1000px;
+    margin: 0 auto;
 }
-/*соцсети*/
-.socialmenu{
-    
-    text-align: center;
-    
-}
-
-/*заглав*/
-.img1{
- margin:0px 80px 20px 80px;
-    margin-bottom: 40px;
-}
-
-/*фотка текст*/
-.conteiner{
-   display: flex; 
-     margin: 20px 80px;
-    flex-direction: row-reverse;
-    margin-bottom: 40px;
-}
-.shaped {
-    width: 50%;
-    margin:10px 0 10px 10px ;
-}
-.content{
-    background-color: #E6D8D7;
-    width: 50%;
-    margin: 10px 10px 10px 0;
-    text-align: center;
+.link_social{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    margin: 20px 0;
     }
-
-
+.img1{
+    margin-bottom: 40px;
+}
 .photo {
    display: flex;
-    margin:  ;
-    margin-bottom: 40px;
+    
 }
 .photo11 {
    display: flex;
@@ -58,29 +28,61 @@ body{
 .photo111 {
    display: flex;
     flex-direction: column;
-    height: 100%;
+    
 }
 .photo112 {
    display: flex;
     flex-direction: column;
-    height: 100%;
+    
 }
 .photo113 {
    display: flex;
     flex-direction: column;
-    height: 100%;
+   
 }
 .photo114 {
    display: flex;
     flex-direction: column;
-    height: 100%;
+   
 }
+.conteiner{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+    
+.content{
+ max-width: 50%;
+    display: flex;
+    background-color: #e6d8d7;
+    text-align: center;
+    margin: 20px 10px 20px 20px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    }
+.text_h1{
+        font-size: 35px;
+    font-family: 'Red Hat Display', sans-serif;
+    } 
+    .text_p{
+        font-size: 17.5px;
+        font-family: 'Red Hat Display', sans-serif;
+    }
 
-
-
-.map{
     
 }
+.shaped{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+}   
+
 .map_text{
     text-align: center;
 }
@@ -88,36 +90,94 @@ body{
     color: black;
 }
 .map_map{
-    margin: 0px 80px 30px 80px;
+    margin-bottom: 40px;
 }
 
-.price{
-    
+
+.price33{
+display: flex;
+    margin-bottom: 50px;
 }
-.price_text{
-    background-color: #F7F7F7;
-    padding: 20px;
-    font-size: 30px;
-}
-.head3{
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-.text1{width: 33%
-    
+.text1{
+    margin: 10px;
 }
 .text2{
-    width: 33%
+    margin: 10px;
+}.text3{
+    margin: 10px;
 }
-.text3{
-    width: 33%
+.img2{
+   max-width: 100%; 
 }
-.price3{
-   display:flex;justify-content:center;
-   
+@media screen and (max-width: 1200px){
+    body {
+       /* background-color: darkcyan;*/
+    }
+    
+        }
+    
+
+@media screen and (max-width: 992px){
+    body {
+       /* background-color: red;*/
+    }
+    /*.text_h1{
+        font-size: 25px;
+    } 
+    .text_p{
+        font-size: 12px;
+    }*/
+.conteiner {
+   margin-top: 29px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: center;
+    width: 100%;
 }
-.price33{
-    width: 80%;
-display:flex;
+    .img2{
+       
+    }
+    .text_h1{
+        font-size: 40px;
+    }
+    .text_p {
+        font-size: 20px
+    }
+}
+/*Small Devices, Tablet*/
+@media  screen and (max-width: 720px){
+    body {
+       /* background-color: blue;*/
+    }
+    .content{
+        max-width: 80%;
+    }
+
+    .price33{
+        display: block;
+    }
+    .text1{ display: flex;
+    justify-content: center;
+    margin: 20px 0;}
+    .text1_img{width: 70%; }
+    .text2{display: flex;
+    justify-content: center;
+    margin: 20px 0;}
+     .text2_img{width: 70%;}
+    .text3{display: flex;
+    justify-content: center;
+    margin: 20px 0;}
+     .text3_img{width: 70%;}
+}
+/*Extra Small Devices, Phones*/
+@media  screen and (max-width: 480px){
+     body {
+      /* background-color: green;*/
+    }
+}
+@media  screen and (max-width: 375px){
+     body {
+      /* background-color: gray;*/
+    }
 }
