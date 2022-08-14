@@ -1,32 +1,27 @@
-/*large Device, wide screan*/
-@media only screen and (max-width: 1200px){
-    body {
-        background-color: darkcyan;
+
+
+/*Extra Small Devices, Phones*/
+@media : only screen and (min-width: 480px){
+     body {
+      
     }
 }
-
+/*Small Devices, Tablet*/
+@media :only screen and (min-width: 768px){
+    body {
+        background-color: blue;
+    }
+}
 /*Medium Device, Desctop*/
-@media only screen and (max-width: 992px){
+@media: only screen and (min-width: 992px){
     body {
         background-color: red;
     }
 
 }
-/*Small Devices, Tablet*/
-@media only screen and (max-width: 768px){
+/*large Device, wide screan*/
+@media: only screen and (min-width: 1200px){
     body {
-        background-color: blue;
-    }
-}
-/*Extra Small Devices, Phones*/
-@media only screen and (max-width: 480px){
-     body {
-        background-color: green;
-    }
-}
-/*Custom, iPhone Retina*/
-@media only screen and (max-width: 320px){
-    body {
-        background-color: gray;
+        background-color: darkcyan;
     }
 }
