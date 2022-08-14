@@ -5,7 +5,7 @@
 }
 body{
    font-family: 'Raleway', sans-serif;
-    
+    background-color: aliceblue;
     
 }
 /*соцсети*/
@@ -14,11 +14,7 @@ body{
     text-align: center;
     
 }
-@media  screen and (max-width: 768px){
-    body {
-        background-color: blue;
-    }
-}
+
 /*заглав*/
 .img1{
  margin:0px 80px 20px 80px;
