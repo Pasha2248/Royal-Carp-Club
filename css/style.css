@@ -109,6 +109,9 @@ display: flex;
 .img2{
    max-width: 100%; 
 }
+.price_text{
+    background-color: #F7F7F7;
+}
 @media screen and (max-width: 1200px){
     body {
        /* background-color: darkcyan;*/
@@ -144,7 +147,27 @@ display: flex;
     .text_p {
         font-size: 20px
     }
+        .content{
+        max-width: 80%;
+    }
+
+    .price33{
+        display: block;
+    }
+    .text1{ display: flex;
+    justify-content: center;
+    margin: 20px 0;}
+    .text1_img{width: 50%; }
+    .text2{display: flex;
+    justify-content: center;
+    margin: 20px 0;}
+     .text2_img{width: 50%;}
+    .text3{display: flex;
+    justify-content: center;
+    margin: 20px 0;}
+     .text3_img{width: 50%;}
 }
+
 /*Small Devices, Tablet*/
 @media  screen and (max-width: 720px){
     body {
