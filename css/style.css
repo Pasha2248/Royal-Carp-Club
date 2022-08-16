@@ -9,8 +9,24 @@ body{
 .link_social{
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 40px 0;
+    background-color: lightgray;
+    border-radius: 20px;
+    padding: 10px;
     }
+.img_telegram{ width: 60px;}
+     .img_facebook{ width: 60px;}
+     .img_youtube{ width: 60px;}
+    .img_instagram{ width: 60px;}
+.img_viber{ width: 60px;}
+.img_viber_a{padding: 0 30px; display: flex;justify-content: center;}
+.img_telegram_a{padding: 0 30px; display: flex;justify-content: center;}
+
+.img_facebook_a{padding: 0 30px; display: flex;justify-content: center;}
+.img_youtube_a{padding: 0 30px; display: flex;justify-content: center;}
+.img_instagram_a{padding: 0 30px; display: flex;justify-content: center;}
+
+
 .img1{
     margin-bottom: 40px;
 }
@@ -57,12 +73,13 @@ body{
 .content{
  max-width: 50%;
     display: flex;
-    background-color: #F7F7F9;
+    background-color:lightgray;
     text-align: center;
     margin: 20px 10px 20px 20px;
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    border-radius: 20px;
     }
 .text_h1{
         font-size: 35px;
@@ -85,14 +102,27 @@ body{
 
 .map_text{
     text-align: center;
+    margin-top: 50px;
+    border-radius: 20px 20px 0 0;
 }
 .link_mail{
     color: black;
 }
 .map_map{
-    margin-bottom: 40px;
+    
+    background-color: lightgray;
+     border-radius:0 0 20px 20px ;
 }
+.under_map{
 
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.under_map_text{
+   
+}
 
 .price33{
 display: flex;
@@ -110,7 +140,8 @@ display: flex;
    max-width: 100%; 
 }
 .price_text{
-    background-color: #F7F7F7;
+    background-color: lightgray;
+    border-radius: 20px;
 }
 @media screen and (max-width: 1200px){
     body {
@@ -181,6 +212,23 @@ display: flex;
     body {
        /* background-color: blue;*/
     }
+    .link_social{    
+    }
+    .img_viber{width: 35px;}
+.img_telegram{width: 35px;}
+.img_facebook{width: 35px;}
+.img_youtube{width: 35px;}
+.img_instagram{width: 35px;}
+    
+    .img_viber_a{padding: 0 20px; }
+.img_telegram_a{padding: 0 20px; }
+
+.img_facebook_a{padding: 0 20px; }
+.img_youtube_a{padding: 0 20px; }
+.img_instagram_a{padding: 0 20px; }
+    
+    
+    
     .content{
         max-width: 80%;
     }
