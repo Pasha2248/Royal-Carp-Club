@@ -130,6 +130,14 @@ display: flex;
     .text_p{
         font-size: 12px;
     }*/
+    .img_viber{
+        width: 60px;
+    }
+     .img_telegram{ width: 60px;}
+     .img_facebook{ width: 60px;}
+     .img_youtube{ width: 60px;}
+    .img_instagram{ width: 60px;}
+    
 .conteiner {
    margin-top: 29px;
     display: flex;
